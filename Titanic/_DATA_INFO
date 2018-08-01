@@ -1,0 +1,2674 @@
+
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+THIS FILE HAS 891 ROWS AND 12 COLUMNS.
+
+THE DETAIL OF THE DATAFRAME:
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+THE MAXIMUM, MINIMUM, MEAN AND MEDIAN OF THE NUMERIC COL AS FOLLOWS:
+PassengerId	MAX: 891	MIN: 1	MEAN: 446.0	MEDIAN: 446.0
+Survived	MAX: 1	MIN: 0	MEAN: 0.383838383838	MEDIAN: 0.0
+Pclass	MAX: 3	MIN: 1	MEAN: 2.30864197531	MEDIAN: 3.0
+Age	MAX: 80.0	MIN: 0.42	MEAN: 29.6991176471	MEDIAN: 28.0
+SibSp	MAX: 8	MIN: 0	MEAN: 0.523007856341	MEDIAN: 0.0
+Parch	MAX: 6	MIN: 0	MEAN: 0.381593714927	MEDIAN: 0.0
+Fare	MAX: 512.3292	MIN: 0.0	MEAN: 32.2042079686	MEDIAN: 14.4542
+
+
+THIS FILE'S TYPE OF THE EVERY COLUMNS AS FOLLOWS:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+THE TOP 10 ROWS IN THIS FILE:
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+5            6         0       3   
+6            7         0       1   
+7            8         0       3   
+8            9         1       3   
+9           10         1       2   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+5                                   Moran, Mr. James    male   NaN      0   
+6                            McCarthy, Mr. Timothy J    male  54.0      0   
+7                     Palsson, Master. Gosta Leonard    male   2.0      3   
+8  Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)  female  27.0      0   
+9                Nasser, Mrs. Nicholas (Adele Achem)  female  14.0      1   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+5      0            330877   8.4583   NaN        Q  
+6      0             17463  51.8625   E46        S  
+7      1            349909  21.0750   NaN        S  
+8      2            347742  11.1333   NaN        S  
+9      0            237736  30.0708   NaN        C  
+
+THE NUMBER OF THE NULL IN EVERY COLUMN:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
